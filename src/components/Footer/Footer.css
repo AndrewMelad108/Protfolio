@@ -1,0 +1,48 @@
+/* ===========================
+ table of contents
+==============================
+1. Footer Design
+2. Footer Links
+3- Footer Copy Rigth
+4- Responsive Design (media query)*/
+
+/* ========================
+   1.Footer Design
+=========================== */
+footer {
+  justify-content: space-around;
+  margin: 2rem 0;
+  font-size: 14px;
+}
+/* ========================
+   2.Footer Links
+=========================== */
+footer .links {
+  gap: 1rem;
+  color: var(--title);
+}
+footer .links a {
+  color: var(--title);
+}
+footer .links a:hover {
+  color: var(--blue);
+}
+/* ========================
+  3- Footer Copy Rigth
+=========================== */
+footer p {
+  color: var(--sub-title);
+}
+/* ========================
+  4- Responsive Design (media query)
+=========================== */
+@media (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  footer p {
+    text-align: center;
+  }
+}

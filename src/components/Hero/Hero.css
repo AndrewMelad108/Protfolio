@@ -1,0 +1,87 @@
+/* ===========================
+ table of contents
+==============================
+1. Hero Design
+2. Hero Info
+3- Hero Section Image
+4- Responsive Design (media query)*/
+
+/* ========================
+    1. Hero Design
+=========================== */
+.Hero {
+  margin-top: 3rem;
+  width: 90%;
+  margin: 5rem auto;
+}
+/* ========================
+    2. Hero Info
+=========================== */
+.Hero .Hero-info {
+  width: 60%;
+}
+.Hero .Hero-info .img-person {
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgb(250, 211, 140);
+  margin-right: 1%;
+  padding: 0.5px;
+  background: gray;
+}
+.Hero .Hero-info .icon-verified {
+  color: var(--blue);
+  display: inline-block;
+}
+.Hero .Hero-info .Hero-info-title {
+  color: var(--title);
+  margin: 15px 0;
+}
+.Hero .Hero-info .Hero-info-des {
+  color: var(--sub-title);
+  font-size: 16px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.Hero .Hero-info .all-icons {
+  gap: 1.2rem;
+}
+.Hero .Hero-info .all-icons {
+  gap: 1.2rem;
+  margin: 10px 0;
+}
+.Hero .Hero-info .all-icons a {
+  all: unset;
+  cursor: pointer;
+  transition: all ease-in-out 0.4s;
+  font-size: 20px;
+  color: var(--title);
+}
+.Hero .Hero-info .all-icons a:hover {
+  color: var(--icon-hover);
+}
+/* ========================
+    3- Hero Section Image
+=========================== */
+.Hero .Hero-image {
+  width: 40%;
+  height: 300px;
+}
+/* ========================
+    4- Responsive Design (media query)
+=========================== */
+@media (max-width: 800px) {
+  .Hero {
+    padding: 0 5%;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .Hero .Hero-info {
+    width: 90%;
+  }
+  .Hero .Hero-image {
+    height: 350px;
+    width: 80%;
+  }
+}

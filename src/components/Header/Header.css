@@ -1,0 +1,130 @@
+/* ===========================
+ table of contents
+==============================
+1. Header Design
+2. Button & icon
+3- Modal == pop up
+4- Responsive Design (media query)*/
+
+/* ========================
+    1. Header Design
+=========================== */
+
+header.flex {
+  justify-content: space-between;
+  padding: 0 4rem;
+  margin-top: 1rem;
+}
+header nav {
+  background-color: var(--bg-header-color);
+  padding: 0.7rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 15px rgb(49, 48, 48);
+}
+header nav > ul.flex {
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+header ul button {
+  color: var(--title);
+  opacity: 1;
+  font-size: 14px;
+  transition: 0.4s;
+}
+header ul button:hover {
+  color: var(--blue);
+  opacity: 0.5;
+}
+/* ========================
+    2. Button & icon
+=========================== */
+header.flex .mode {
+  background: var(--bg-header-color);
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 0.5px solid rgba(255, 166, 0, 0.164);
+}
+header.flex .icon-close,
+header.flex .icon-menu,
+header.flex .icon-moon-o,
+header.flex .icon-sun {
+  font-size: 22px;
+}
+header.flex .icon-sun {
+  color: orange;
+}
+header .icon-close {
+  color: var(--sub-title);
+  font-size: 1.5rem;
+  transition: 0.7s all ease-in-out;
+}
+header .icon-close:hover {
+  color: var(--title);
+  rotate: 180deg;
+}
+.light header.flex .icon-menu {
+  color: var(--title);
+}
+
+.light header.flex .mode {
+  box-shadow: 1px 1px 10px gray;
+}
+/* ========================
+    3- Modal == pop up
+=========================== */
+header.flex .fixed {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  background-color: rgba(40, 40, 48, 0.91);
+  backdrop-filter: blur(2px);
+}
+header.flex .Model {
+  width: 80%;
+  margin: 2rem auto;
+  padding: 0.8rem;
+  border-radius: 15px;
+  background-color: var(--bg-container-color);
+  animation: mymove 0.7s 1;
+}
+@keyframes mymove {
+  0% {
+    scale: 0;
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+header.flex .Model li {
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+}
+header.flex .Model li:first-child {
+  border-bottom: none;
+  text-align: end;
+  padding: 5px 0;
+}
+header.flex .Model li:last-child {
+  padding: 10px 0;
+  border-bottom: none;
+}
+
+/* ========================
+    4- Responsive Design (media query)
+=========================== */
+@media (max-width: 700px) {
+  header.flex nav {
+    display: none;
+  }
+  header.flex .menu {
+    display: block;
+  }
+  header.flex button.none {
+    display: block;
+  }
+}

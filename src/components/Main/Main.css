@@ -1,0 +1,148 @@
+/* ===========================
+ table of contents
+==============================
+1. Main Design
+2. Links Section
+3- Projects Section
+4- Responsive Design (media query)*/
+
+/* ========================
+    1. Main Design
+=========================== */
+main.flex {
+  align-items: start;
+  width: 90%;
+  margin: auto;
+  gap: 3rem;
+}
+/* ========================
+    2.Links Section
+=========================== */
+main.flex .links {
+  flex-direction: column;
+  gap: 1rem;
+}
+main.flex .links .link {
+  background-color: rgba(36, 37, 46, 1);
+  width: 8rem;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  color: var(--sub-title);
+  opacity: 1;
+  text-transform: capitalize;
+  transition: 0.4s;
+  border: 1px solid rgba(93, 188, 252, 0.1);
+  opacity: 0.6;
+}
+main.flex .links .link.active {
+  font-weight: bold;
+  border: 1px solid #000;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  color: var(--title);
+}
+
+.light main.flex .links .link.active {
+  color: white;
+  background-color: #000;
+  opacity: 1;
+  letter-spacing: 0.6px;
+}
+/* ========================
+    3.Projects Section
+=========================== */
+main.flex .projects.flex {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+main.flex .projects .project-card {
+  width: 230px;
+  border-radius: 5px;
+  height: auto;
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  overflow: hidden;
+  transition: all ease-in-out 0.7s;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.07)
+  );
+}
+main.flex .projects .project-card:hover {
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  rotate: 3deg;
+}
+.light main.flex .projects .project-card,
+.light main.flex .projects .project-card:hover {
+  border: none;
+  box-shadow: 1px 1px 4px gray;
+}
+.light main.flex .projects .project-card:hover {
+  background-color: rgba(245, 245, 245);
+}
+main.flex .projects .project-card img {
+  width: 230px;
+  height: 150px;
+  padding: 2px;
+}
+main.flex .projects .project-card .title {
+  color: var(--title);
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 0px 6px;
+}
+main.flex .projects .project-card .sub-title {
+  color: var(--sub-title);
+  font-size: 0.7rem;
+  margin: 0.3rem 0;
+  padding: 4px 6px;
+  min-height: 3rem;
+}
+main.flex .projects .project-card .project-icons {
+  margin: 0.3rem 0;
+  justify-content: space-between;
+  padding: 6px 8px;
+}
+main.flex .projects .project-card .project-icons a {
+  color: var(--title);
+  padding: 2px;
+}
+main.flex .projects .project-card .project-icons .left {
+  gap: 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+main.flex .projects .project-card .project-icons .left > a span:hover {
+  color: var(--sub-title);
+}
+main.flex .projects .project-card .project-icons .rigth {
+  font-size: 1rem;
+  color: var(--blue);
+}
+/* ========================
+    4- Responsive Design (media query)
+=========================== */
+@media (max-width: 1200px) {
+  main.flex {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) {
+  main.flex {
+    display: block;
+  }
+  main.flex .links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  main.flex .projects {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
