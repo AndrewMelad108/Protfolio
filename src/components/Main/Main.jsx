@@ -38,9 +38,9 @@ export default function Main() {
         </button>
         <button
           onClick={() => {
-            handleClick("tailwindcss");
+            handleClick("Tailwindcss");
           }}
-          className={active === "tailwindcss" ? "link active" : "link"}
+          className={active === "Tailwindcss" ? "link active" : "link"}
         >
           tailwind css
         </button>
