@@ -2,7 +2,7 @@
   {
     "id": 1,
     "project_title": "Portfolio-React",
-    "project_image": "../src/images/Protfolio-React.png",
+    "project_image": "../public/images/Protfolio-React.png",
     "project_info": "Highlighting my frontend skills, the Portfolio showcases engaging projects and innovations in Vue.js and React.js.",
     "project_link": "https://protfolio-five-dun.vercel.app/",
     "github_link": "https://protfolio-five-dun.vercel.app/",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "project_title": "Jack",
-    "project_image": "../src/images/Jack.png",
+    "project_image": "../public/images/Jack.png",
     "project_info": "The Automotive Services Project handles car repair, parts purchase, used car sales, and includes a chat function for users and sellers.",
     "project_link": "https://jack-delta.vercel.app/",
     "github_link": "https://github.com/AndrewMelad108",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "project_title": "Amazon",
-    "project_image": "../src/images/Amazon.png",
+    "project_image": "../public/images/Amazon.png",
     "project_info": "Simplified Amazon-style project: Cart management, product purchase; CSS, React.js, HTML, JS (ES6), Firebase, Material UI",
     "project_link": "https://clone-6412a.firebaseapp.com",
     "github_link": "https://github.com/AndrewMelad108/Amazon-clone",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "project_title": "AM Store",
-    "project_image": "../src/images/AMStore.png",
+    "project_image": "../public/images/AMStore.png",
     "project_info": "Project with Guest and Admin Users: Guests can add to cart and purchase; Admin manages products, categories, users, and admin data.",
     "project_link": "https://am-store-five.vercel.app/home",
     "github_link": "https://github.com/AndrewMelad108/AM-Store",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "project_title": "Portfolio-Vue",
-    "project_image": "../src/images/Portfolio-Vue.png",
+    "project_image": "../public/images/Portfolio-Vue.png",
     "project_info": "Highlighting my frontend skills, the Portfolio showcases engaging projects and innovations in Vue.js and React.js.",
     "project_link": "https://github.com/AndrewMelad108/Portfolio-Vue",
     "github_link": "https://github.com/AndrewMelad108/Portfolio-Vue",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "project_title": "tour-and-travel-website",
-    "project_image": "../src/images/tour-and-travel-website.png",
+    "project_image": "../public/images/tour-and-travel-website.png",
     "project_info": "Embark on unforgettable journeys and discover the world's wonders through our comprehensive Tour and Travel Website",
     "project_link": "https://tour-and-travel-pi.vercel.app/",
     "github_link": "https://github.com/AndrewMelad108/tour-and-travel",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "project_title": "chairs-company",
-    "project_image": "../src/images/chairs-company.png",
+    "project_image": "../public/images/chairs-company.png",
     "project_info": "At Chairs Company, we redefine seating comfort and elegance. Our mission is to provide ergonomic and stylish seating solutions ",
     "project_link": "https://chairs-market-mocha.vercel.app/",
     "github_link": "https://github.com/AndrewMelad108/Chairs-Market",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "project_title": "customer-management",
-    "project_image": "../src/images/customer-managment.png",
+    "project_image": "../public/images/customer-managment.png",
     "project_info": "The customer addition system is a software tool for managing new customer information, ensuring accuracy and security, facilitating communication, and organizing data efficiently.",
     "project_link": "https://customer-management-mttl.onrender.com/",
     "github_link": "https://github.com/AndrewMelad108/Customer-management",
