@@ -13,11 +13,7 @@ export default function Hero() {
           transition={{ type: "spring", damping: 8, stiffness: 50 }}
           className="Hero-info"
         >
-          <img
-            src="/public/me-modified.png"
-            className="img-person"
-            alt="img-person"
-          />
+          <img src="/me-modified.png" className="img-person" alt="img-person" />
           <span className="icon-verified"></span>
           <h1 className="Hero-info-title">
             Frontend Engineer (Vue.js/React.js)
