@@ -54,6 +54,9 @@
   padding: 5px;
   border-radius: 5px;
 }
+.contact .contact-content .contact-form input:focus {
+  background-color: rgba(63, 63, 70, 0.15);
+}
 .contact .contact-content .contact-form textarea {
   all: unset;
   background-color: rgba(63, 63, 70, 0.15);
@@ -141,7 +144,7 @@
     justify-content: center;
   }
   .contact .contact-content .contact-form {
-    grid-template-columns: 30% auto;
+    grid-template-columns: auto;
     width: 100%;
   }
 }

@@ -18,10 +18,19 @@ export default function Contact() {
       <div className="flex contact-content">
         <form onSubmit={handleSubmit} className="contact-form">
           <label htmlFor="Email">Email Address:</label>
-          <input name="email" id="email" type="email" />
+          <input
+            name="email"
+            placeholder="Enter Your Email"
+            id="email"
+            type="email"
+          />
           <ValidationError field="email" prefix="email" errors={state.errors} />
           <label htmlFor="Email">Your message:</label>
-          <textarea name="message" id="message"></textarea>
+          <textarea
+            name="message"
+            placeholder="Enter Your Note"
+            id="message"
+          ></textarea>
           <ValidationError
             field="message"
             prefix="message"
