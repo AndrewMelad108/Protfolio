@@ -14,7 +14,6 @@ export default function Main() {
         const foundCategory = project.category.find((cat) => cat === category);
         return foundCategory === category;
       });
-      console.log(newProjects);
       setProjects(newProjects);
     }
   };
@@ -69,6 +68,14 @@ export default function Main() {
         >
           React & MUI
         </button>
+        <button
+          onClick={() => {
+            handleClick("Node.js");
+          }}
+          className={active === "Node.js" ? "link active" : "link"}
+        >
+          Node.js
+        </button>
       </div>
       <div className="projects flex">
         <AnimatePresence>
@@ -91,16 +98,13 @@ export default function Main() {
                 <p className="sub-title">{project.project_info}</p>
                 <div className="flex project-icons">
                   <div className="flex left">
-                    <a href={project.project_link}>
+                    <a href={project.github_link} target="_blank">
                       <span className="icon-github"></span>
                     </a>
-                    <a href={project.project_link}>
+                    <a href={project.project_link} target="_blank">
                       <span className="icon-link1"></span>
                     </a>
                   </div>
-                  <a className="rigth" href="">
-                    more <span className="icon-arrow-right"></span>
-                  </a>
                 </div>
               </motion.div>
             );

@@ -110,8 +110,8 @@ main.flex .projects .project-card .project-icons a {
   padding: 2px;
 }
 main.flex .projects .project-card .project-icons .left {
-  gap: 0.5rem;
-  font-size: 1.4rem;
+  gap: 0.7rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 main.flex .projects .project-card .project-icons .left > a span:hover {

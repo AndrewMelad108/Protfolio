@@ -14,7 +14,7 @@ export default function Hero() {
           className="Hero-info"
         >
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/portfolio-9d760.appspot.com/o/me-modified.png?alt=media&token=4084fdbd-35a9-46f3-abb1-a1d5290f521f"
+            src="/public/me-modified.png"
             className="img-person"
             alt="img-person"
           />
