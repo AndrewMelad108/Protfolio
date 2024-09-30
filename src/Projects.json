@@ -5,7 +5,7 @@
     "project_image": "/images/Protfolio-React.png",
     "project_info": "Highlighting my frontend skills, the Portfolio showcases engaging projects and innovations in Vue.js and React.js.",
     "project_link": "https://protfolio-five-dun.vercel.app/",
-    "github_link": "https://protfolio-five-dun.vercel.app/",
+    "github_link": "https://github.com/AndrewMelad108/Protfolio",
     "category": ["React", "Js", "HTML"]
   },
   {
@@ -13,18 +13,18 @@
     "project_title": "Jack",
     "project_image": "/images/Jack.png",
     "project_info": "The Automotive Services Project handles car repair, parts purchase, used car sales, and includes a chat function for users and sellers.",
-    "project_link": "https://jack-delta.vercel.app/",
-    "github_link": "https://github.com/AndrewMelad108",
+    "project_link": "https://jack-system.vercel.app/",
+    "github_link": "https://github.com/AndrewMelad108/Jack",
     "category": ["Vue", "Js", "Vuei18n", "Tailwindcss", "Firebase"]
   },
   {
     "id": 3,
-    "project_title": "Amazon",
-    "project_image": "/images/Amazon.png",
-    "project_info": "Simplified Amazon-style project: Cart management, product purchase; CSS, React.js, HTML, JS (ES6), Firebase, Material UI",
-    "project_link": "https://clone-6412a.firebaseapp.com",
-    "github_link": "https://github.com/AndrewMelad108/Amazon-clone",
-    "category": ["Firebase", "React", "Js"]
+    "project_title": "Aora App",
+    "project_image": "/images/Aora_App.jpeg",
+    "project_info": "A mobile app built with Expo, React Native, and TypeScript for video content creation and management. Key features include secure login, registration, home feed, profilemanagement, video creation, and saved videos. Technologies used: Expo, Zustand,TailwindCSS.",
+    "project_link": "https://github.com/AndrewMelad108/Aora-App",
+    "github_link": "https://github.com/AndrewMelad108/Aora-App",
+    "category": ["React Native", "Tailwindcss", "Expo", "Ts"]
   },
   {
     "id": 4,
@@ -58,7 +58,7 @@
     "project_title": "tour-and-travel-website",
     "project_image": "/images/tour-and-travel-website.png",
     "project_info": "Embark on unforgettable journeys and discover the world's wonders through our comprehensive Tour and Travel Website",
-    "project_link": "https://tour-and-travel-pi.vercel.app/",
+    "project_link": "https://tour-and-travel-j8hi.vercel.app/",
     "github_link": "https://github.com/AndrewMelad108/tour-and-travel",
     "category": ["HTML", "CSS"]
   },
@@ -79,5 +79,23 @@
     "project_link": "https://customer-management-mttl.onrender.com/",
     "github_link": "https://github.com/AndrewMelad108/Customer-management",
     "category": ["Bootstrap", "Node.js", "Express"]
+  },
+  {
+    "id": 3,
+    "project_title": "Aora App",
+    "project_image": "/images/Aora_App.jpeg",
+    "project_info": "A mobile app built with Expo, React Native, and TypeScript for video content creation and management. Key features include secure login, registration, home feed, profilemanagement, video creation, and saved videos. Technologies used: Expo, Zustand,TailwindCSS.",
+    "project_link": "https://github.com/AndrewMelad108/Aora-App",
+    "github_link": "https://github.com/AndrewMelad108/Aora-App",
+    "category": ["React Native", "Tailwindcss", "Expo", "Ts"]
+  },
+  {
+    "id": 10,
+    "project_title": "Amazon",
+    "project_image": "/images/Amazon.png",
+    "project_info": "Simplified Amazon-style project: Cart management, product purchase; CSS, React.js, HTML, JS (ES6), Firebase, Material UI",
+    "project_link": "https://clone-6412a.firebaseapp.com",
+    "github_link": "https://github.com/AndrewMelad108/Amazon-clone",
+    "category": ["Firebase", "React", "Js"]
   }
 ]

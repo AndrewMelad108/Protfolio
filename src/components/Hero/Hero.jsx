@@ -16,17 +16,14 @@ export default function Hero() {
           <img src="/me-modified.png" className="img-person" alt="img-person" />
           <span className="icon-verified"></span>
           <h1 className="Hero-info-title">
-            Frontend Engineer (Vue.js/React.js)
+            Frontend Engineer (Vue.js & React.js & React Native)
           </h1>
           <p className="Hero-info-des">
-            As Andrew Melad, I'm a passionate frontend developer specialized in
-            Vue.js and React.js. My focus is on crafting engaging user
-            interfaces and dynamic web solutions. Through diverse projects, I've
-            honed skills in modern tech, fostering an environment for
-            implementing cutting-edge tools. Continuously exploring new
-            technologies, I'm presently immersing myself in React.js and Next.js
-            to enhance web experiences further, merging these with my Vue.js
-            expertise.
+            Frontend developer skilled in building web and mobile applications
+            using Vue.js, React.js, React Native, and TypeScript. Experienced in
+            delivering high-performance solutions and mentoring junior
+            developers. Proficient in dynamic table management, responsive
+            design, and utilizing TailwindCSS for fast, elegant UIs.
           </p>
         </motion.div>
       </AnimatePresence>

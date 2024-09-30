@@ -5,6 +5,53 @@ import { AnimatePresence, motion } from "framer-motion";
 export default function Main() {
   const [active, setActive] = useState("all");
   const [projects, setProjects] = useState(Projects);
+  const [skills, setSkills] = useState([
+    {
+      id: 1,
+      searchName: "all",
+      ButtonName: "all projects",
+    },
+    {
+      id: 2,
+      searchName: "CSS",
+      ButtonName: "HtML & CSS",
+    },
+    {
+      id: 3,
+      searchName: "Tailwindcss",
+      ButtonName: "tailwind css",
+    },
+    {
+      id: 4,
+      searchName: "Js",
+      ButtonName: "JavaScript",
+    },
+    {
+      id: 4,
+      searchName: "Ts",
+      ButtonName: "TypeScript",
+    },
+    {
+      id: 5,
+      searchName: "Vue",
+      ButtonName: "Vue",
+    },
+    {
+      id: 6,
+      searchName: "React",
+      ButtonName: "React & MUI",
+    },
+    {
+      id: 7,
+      searchName: "Node.js",
+      ButtonName: "Node.js",
+    },
+    {
+      id: 8,
+      searchName: "React Native",
+      ButtonName: "React Native",
+    },
+  ]);
   const handleClick = (category) => {
     setActive(category);
     if (category === "all") {
@@ -20,62 +67,18 @@ export default function Main() {
   return (
     <main className="flex">
       <div className="links flex">
-        <button
-          onClick={() => {
-            handleClick("all");
-          }}
-          className={active === "all" ? "link active" : "link"}
-        >
-          all projects
-        </button>
-        <button
-          onClick={() => {
-            handleClick("CSS");
-          }}
-          className={active === "CSS" ? "link active" : "link"}
-        >
-          HtML & CSS
-        </button>
-        <button
-          onClick={() => {
-            handleClick("Tailwindcss");
-          }}
-          className={active === "Tailwindcss" ? "link active" : "link"}
-        >
-          tailwind css
-        </button>
-        <button
-          onClick={() => {
-            handleClick("Js");
-          }}
-          className={active === "Js" ? "link active" : "link"}
-        >
-          JavaScript
-        </button>
-        <button
-          onClick={() => {
-            handleClick("Vue");
-          }}
-          className={active === "Vue" ? "link active" : "link"}
-        >
-          Vue
-        </button>
-        <button
-          onClick={() => {
-            handleClick("React");
-          }}
-          className={active === "React" ? "link active" : "link"}
-        >
-          React & MUI
-        </button>
-        <button
-          onClick={() => {
-            handleClick("Node.js");
-          }}
-          className={active === "Node.js" ? "link active" : "link"}
-        >
-          Node.js
-        </button>
+        {skills.map((item) => {
+          return (
+            <button
+              onClick={() => {
+                handleClick(item.searchName);
+              }}
+              className={active === item.searchName ? "link active" : "link"}
+            >
+              {item.ButtonName}
+            </button>
+          );
+        })}
       </div>
       <div className="projects flex">
         <AnimatePresence>
@@ -92,7 +95,7 @@ export default function Main() {
                 <motion.img
                   src={project.project_image}
                   alt="project-card"
-                  className="project-image "
+                  className="project-image"
                 />
                 <p className="title">{project.project_title}</p>
                 <p className="sub-title">{project.project_info}</p>
